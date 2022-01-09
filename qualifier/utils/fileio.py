@@ -28,3 +28,10 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
+
+def save_csv(csvpath,data):
+
+    with open(csvpath, 'w') as f:
+        writer = csv.writer(f)
+        for row in data:
+            writer.writerow(row)

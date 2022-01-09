@@ -1,0 +1,29 @@
+    1  dir
+    2  cd documents
+    3  dir
+    4  cd Bootcamp
+    5  git clone git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-12-2021-U-B.git
+    6  git clone https://columbia.bootcampcontent.com/columbia-bootcamp/CU-VIRT-FIN-PT-12-2021-U-B.git
+    7  git clone https://github.com/jsphfrntz/Github_Upload.git
+    8  dir
+    9  cd Starter_Code_M2/
+   10  cd Starter_Code/loan_qualifier_app/
+   11  git init
+   12  git commit -m "first commit"
+   13  git config --global user.email j.laurent.frantz@gmail.com
+   14  git config --global user.name "Joseph Frantz"
+   15  git commit -m "first commit"
+   16  dir
+   17  git add -A
+   18  git branch -M main
+   19  git remote add origin https://github.com/jsphfrntz/loan_qualifier.git
+   20  git push -u origin main
+   21  git push -u origin main
+   22  git push -u origin master
+   23  git pull
+   24  git push
+   25  git push --set-upstream origin main
+   26  git commit -m "first commit"
+   27  git push --set-upstream origin main
+   28  dir
+   29  history 250 > terminal_history.txt
